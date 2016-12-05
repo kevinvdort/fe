@@ -1,0 +1,150 @@
+* {
+	padding: 0;
+	margin: 0;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+	font-size: 14px;
+	font-family: Arial;
+}
+
+body {
+	
+}
+
+h1 {
+	color: darkred;
+}
+
+h2, h3, h4, h5, h6 {
+	color: orange;
+}
+
+a {
+	color: blue;
+}
+
+a:hover {
+	color: orange;
+}
+
+a:link {
+	color: purple;
+}
+
+a:visited {
+	color: lightblue;
+}
+
+.row {
+	margin-left: -15px;
+	margin-right: -15px;
+}
+
+.col-1, .col-2, .col-3, .col-4,
+.col-5, .col-6, .col-7, .col-8,
+.col-9, .col-10, .col-11, .col-12 {
+	float: left;
+	position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.col-1 { width: 8.33333333%; }
+.col-2 { width: 16.66666667%; }
+.col-3 { width: 25%; }
+.col-4 { width: 33.33333333%; }
+.col-5 { width: 0; }
+.col-6 { width: 50%; }
+.col-7 { width: 0; }
+.col-8 { width: 66.66666667%; }
+.col-9 { width: 75%; }
+.col-10 { width: 0; }
+.col-11 { width: 0; }
+.col-12 { width: 100%; }
+
+.container {
+	width: 1170px;
+	padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+	overflow: hidden;
+}
+
+/* ======================================
+ * Page
+ * ====================================== */
+
+.main-header {
+	height: 165px;
+}
+
+.main-menu {
+	height: 105px;
+	border-bottom: 1px solid gray;
+}
+
+.main-menu ul {
+	list-style: none;
+}
+
+.main-menu ul li {
+	float: left;
+}
+
+.main-menu ul li a {
+	height: 100%;
+	width: 100%;
+	padding: 0 12px;
+}
+ 
+.main-slider {
+	height: 550px;
+	background: lightgray;
+	border-bottom: 5px solid yellow;
+}
+
+.main-footer {
+	
+}
+
+.main-footer .newsletter-subscription {
+	height: 170px;
+	background: #eeeeee;
+}
+
+.main-footer .copyright {
+	border-top: 1px solid black;
+}
+
+/**
+Content block: 970w * n
+Header  165h
+nav 105(plus border 106)
+photo 550 + 5px border
+
+
+product block
+header (navigation) 90px
+225px * 375px per item
+
+
+newsletter subscription block
+170px height
+
+
+	> 1024
+	> 768
+	> 480
+
+
+
+
+Raleway
+https://fonts.google.com/specimen/Raleway 
+*/
