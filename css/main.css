@@ -5,11 +5,12 @@
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     outline: none;
+    color: #717171;
 }
 
 html {
 	font-size: 14px;
-	font-family: Arial;
+	font-family: 'Raleway', sans-serif;
 }
 
 body {
@@ -27,9 +28,14 @@ h3 {
 	font-size: 18px;
 }
 
+p {
+	padding-bottom: 8px;
+}
+
 a {
 	color: #727272;
 	text-decoration: none;
+	font-weight: bold;
 }
 
 a:hover {
@@ -58,6 +64,10 @@ figure img {
 figure figcaption {
 	color: #969696;
 }
+
+/* ======================================
+ * General
+ * ====================================== */
 
 .shawling-fawn {
 	color: #73533c;
@@ -203,6 +213,8 @@ ul.navbar li a {
 	border-bottom: 3px solid #e1e4d9;
 	position: relative;
 	color: #4c4c4c;
+	font-size: 16px;
+	text-transform: uppercase;
 }
 
 ul.navbar li a:hover {
@@ -285,6 +297,12 @@ ul.navbar-right {
 	text-align: center;
 	padding-top: 25px;
 	padding-bottom: 25px;
+}
+
+.product .price {
+	font-weight: bold;
+	color: #73533c;
+	font-size: 18px;
 }
 
 /**
