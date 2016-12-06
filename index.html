@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title>FE</title>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
 	<link rel="stylesheet" type="text/css" href="css/main.css" />
 </head>
 <body>
@@ -9,7 +10,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-4">
-					<ul>
+					<ul class="list-slash">
 						<li><a href="#">Checkout</a></li>
 						<li><a href="#">Log in</a></li>
 						<li><a href="#">Register</a></li>
@@ -22,124 +23,147 @@
 					</figure>
 				</div>
 				<div class="col-4">
-					<ul>
+					<div class="shopping-cart">
+						$0.00
+					</div>
+					<ul class="list-slash navbar-right">
 						<li><a href="#">My wishlist (0)</a></li>
 						<li><a href="#">USD</a></li>
 					</ul>
-					<div class="shopping-cart">
-						$0.00
+				</div>
+			</div>
+		</div>
+	</header>
+	<nav class="main-menu navbar-line">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<ul class="navbar">
+						<li class="active"><a href="#">Face</a></li>
+						<li><a href="#">Body</a></li>
+						<li><a href="#">Make up</a></li>
+						<li><a href="#">Hairs</a></li>
+						<li><a href="#">Perfumes</a></li>
+						<li><a href="#">Gifts</a></li>
+						<li><a href="#">Brands</a></li>
+						<li><a href="#">Must have</a></li>
+					</ul>
+					<div class="search">
+						<input type="input" name="search" placeholder="Type and hit enter" />
 					</div>
 				</div>
 			</div>
 		</div>
-		<nav class="main-menu">
-			<div class="container">
-				<div class="row">
-					<div class="col-12">
-						<ul>
-							<li><a href="#">Face</a></li>
-							<li><a href="#">Body</a></li>
-							<li><a href="#">Make up</a></li>
-							<li><a href="#">Hairs</a></li>
-							<li><a href="#">Perfumes</a></li>
-							<li><a href="#">Gifts</a></li>
-							<li><a href="#">Brands</a></li>
-							<li><a href="#">Must have</a></li>
-						</ul>
-						<div class="search">
-							<input type="input" name="search" placeholder="Type and hit enter" />
-						</div>
-					</div>
-				</div>
-			</div>
-		</nav>
-	</header>
-	<div class="main-slider">
+	</nav>
+	<div class="slider">
 		<div class="left-slider"></div>
 		<div class="container">
 			<h1>Embrace</h1>
 			<h2>To the new season</h2>
+			<p>Very short one or two describing sentences.</p>
+			<p class="selective-yellow">Portable.beauty.personal</p>
+			<button class="btn btn-primary">
+				<span>See details</span>
+			</button>
 			<figure>
 				<img src="" />
 			</figure>
 		</div>
 		<div class="right-slider"></div>
 	</div>
-	<div class="container">
-		<div class="row">
-			<div class="col-12">
-				<ul>
-					<li><a href="#">Hot products</a></li>
-					<li><a href="#">New products</a></li>
-					<li><a href="#">Best sellers</a></li>
-				</ul>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-3">
-				<div class="product">
-					<figure></figure>
-					<h1>Product 1</h1>
-					<p>Yellow Diamond Toilet Water Spray</p>
-					<div class="price">$270.00</div>
+	<div class="main-content">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<ul class="navbar navbar-line navbar-center">
+						<li class="active"><a href="#">Hot products</a></li>
+						<li><a href="#">New products</a></li>
+						<li><a href="#">Best sellers</a></li>
+					</ul>
 				</div>
 			</div>
-			<div class="col-3">
-				<div class="product">
-					<figure></figure>
-					<h1>Product 2</h1>
-					<p>Yellow Diamond Toilet Water Spray</p>
-					<div class="price">$270.00</div>
+			<div class="row">
+				<div class="col-3">
+					<div class="product">
+						<figure>
+							<img src="" width="205" height="205" />
+						</figure>
+						<h3>Product 1</h3>
+						<p>Yellow Diamond Toilet Water Spray</p>
+						<div class="price">$270.00</div>
+					</div>
+				</div>
+				<div class="col-3">
+					<div class="product">
+						<figure>
+							<img src="" width="205" height="205" />
+						</figure>
+						<h3>Product 2</h3>
+						<p>Yellow Diamond Toilet Water Spray</p>
+						<div class="price">$270.00</div>
+					</div>
+				</div>
+				<div class="col-3">
+					<div class="product">
+						<figure>
+							<img src="" width="205" height="205" />
+						</figure>
+						<h3>Product 3</h3>
+						<p>Yellow Diamond Toilet Water Spray</p>
+						<div class="price">$270.00</div>
+					</div>
+				</div>
+				<div class="col-3">
+					<div class="product">
+						<figure>
+							<img src="" width="205" height="205" />
+						</figure>
+						<h3>Product 4</h3>
+						<p>Yellow Diamond Toilet Water Spray</p>
+						<div class="price">$270.00</div>
+					</div>
 				</div>
 			</div>
-			<div class="col-3">
-				<div class="product">
-					<figure></figure>
-					<h1>Product 3</h1>
-					<p>Yellow Diamond Toilet Water Spray</p>
-					<div class="price">$270.00</div>
+			<div class="row">
+				<div class="col-3">
+					<div class="product">
+						<figure>
+							<img src="" width="205" height="205" />
+						</figure>
+						<h3>Product 5</h3>
+						<p>Yellow Diamond Toilet Water Spray</p>
+						<div class="price">$270.00</div>
+					</div>
 				</div>
-			</div>
-			<div class="col-3">
-				<div class="product">
-					<figure></figure>
-					<h1>Product 4</h1>
-					<p>Yellow Diamond Toilet Water Spray</p>
-					<div class="price">$270.00</div>
+				<div class="col-3">
+					<div class="product">
+						<figure>
+							<img src="" width="205" height="205" />
+						</figure>
+						<h3>Product 6</h3>
+						<p>Yellow Diamond Toilet Water Spray</p>
+						<div class="price">$270.00</div>
+					</div>
 				</div>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-3">
-				<div class="product">
-					<figure></figure>
-					<h1>Product 5</h1>
-					<p>Yellow Diamond Toilet Water Spray</p>
-					<div class="price">$270.00</div>
+				<div class="col-3">
+					<div class="product">
+						<figure>
+							<img src="" width="205" height="205" />
+						</figure>
+						<h3>Product 7</h3>
+						<p>Yellow Diamond Toilet Water Spray</p>
+						<div class="price">$270.00</div>
+					</div>
 				</div>
-			</div>
-			<div class="col-3">
-				<div class="product">
-					<figure></figure>
-					<h1>Product 6</h1>
-					<p>Yellow Diamond Toilet Water Spray</p>
-					<div class="price">$270.00</div>
-				</div>
-			</div>
-			<div class="col-3">
-				<div class="product">
-					<figure></figure>
-					<h1>Product 7</h1>
-					<p>Yellow Diamond Toilet Water Spray</p>
-					<div class="price">$270.00</div>
-				</div>
-			</div>
-			<div class="col-3">
-				<div class="product">
-					<figure></figure>
-					<h1>Product 8</h1>
-					<p>Yellow Diamond Toilet Water Spray</p>
-					<div class="price">$270.00</div>
+				<div class="col-3">
+					<div class="product">
+						<figure>
+							<img src="" width="205" height="205" />
+						</figure>
+						<h3>Product 8</h3>
+						<p>Yellow Diamond Toilet Water Spray</p>
+						<div class="price">$270.00</div>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -153,53 +177,55 @@
 				</div>
 			</div>
 		</div>
-		<div class="container">
-			<div class="row">
-				<div class="col-3">
-					<h3>Informations</h3>
-					<ul>
-						<li><a href="#">Our Blog</a></li>
-						<li><a href="#">About Our Shop</a></li>
-						<li><a href="#">Secure Shopping</a></li>
-						<li><a href="#">Privacy Policy</a></li>
-						<li><a href="#">Delivery Informations</a></li>
-					</ul>
-				</div>
-				<div class="col-3">
-					<h3>Customer care</h3>
-					<ul>
-						<li><a href="#">Our Blog</a></li>
-						<li><a href="#">About Our Shop</a></li>
-						<li><a href="#">Secure Shopping</a></li>
-						<li><a href="#">Privacy Policy</a></li>
-						<li><a href="#">Delivery Informations</a></li>
-					</ul>
-				</div>
-				<div class="col-3">
-					<h3>Your account</h3>
-					<ul>
-						<li><a href="#">Our Blog</a></li>
-						<li><a href="#">About Our Shop</a></li>
-						<li><a href="#">Secure Shopping</a></li>
-						<li><a href="#">Privacy Policy</a></li>
-						<li><a href="#">Delivery Informations</a></li>
-					</ul>
-				</div>
-				<div class="col-3">
-					<h3>Be in touch</h3>
-					<div>Cosmetico Shop</div>
-					<div>Good Town 122, Beauty Care</div>
-					<small>(011) 022 222 222</small>
-					<div class="social">
-						<div class="facebook"></div>
-						<div class="twitter"></div>
-						<div class="talk"></div>
-						<div class="wifi"></div>
+		<div class="footer-links">
+			<div class="container">
+				<div class="row">
+					<div class="col-3">
+						<h3>Informations</h3>
+						<ul class="list-arrow">
+							<li><a href="#">Our Blog</a></li>
+							<li><a href="#">About Our Shop</a></li>
+							<li><a href="#">Secure Shopping</a></li>
+							<li><a href="#">Privacy Policy</a></li>
+							<li><a href="#">Delivery Informations</a></li>
+						</ul>
+					</div>
+					<div class="col-3">
+						<h3>Customer care</h3>
+						<ul class="list-arrow">
+							<li><a href="#">Our Blog</a></li>
+							<li><a href="#">About Our Shop</a></li>
+							<li><a href="#">Secure Shopping</a></li>
+							<li><a href="#">Privacy Policy</a></li>
+							<li><a href="#">Delivery Informations</a></li>
+						</ul>
+					</div>
+					<div class="col-3">
+						<h3>Your account</h3>
+						<ul class="list-arrow">
+							<li><a href="#">Our Blog</a></li>
+							<li><a href="#">About Our Shop</a></li>
+							<li><a href="#">Secure Shopping</a></li>
+							<li><a href="#">Privacy Policy</a></li>
+							<li><a href="#">Delivery Informations</a></li>
+						</ul>
+					</div>
+					<div class="col-3">
+						<h3>Be in touch</h3>
+						<div>Cosmetico Shop</div>
+						<div>Good Town 122, Beauty Care</div>
+						<small>(011) 022 222 222</small>
+						<div class="social">
+							<div class="facebook"></div>
+							<div class="twitter"></div>
+							<div class="talk"></div>
+							<div class="wifi"></div>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-		<div class="copyright">
+		<div class="footer-copyright">
 			<div class="container">
 				<div class="row">
 					<div class="col-6">
@@ -207,7 +233,7 @@
 						<div>Designed by Michal Kowalski</div>
 					</div>
 					<div class="col-6">
-						<ul>
+						<ul class="list-pipeline navbar-right">
 							<li><a href="#">Privacy Policy</a></li>
 							<li><a href="#">Terms &amp; Conditions policy</a></li>
 							<li><a href="#">Sitemap</a></li>
