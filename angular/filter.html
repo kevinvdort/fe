@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html ng-app="">
+<head>
+	<title>FE</title>
+	<style>
+		.progress {
+			width: 600px;
+			height: 12px;
+			border: 1px solid #d3d3d3;
+			border-radius: 4px;
+		}
+		
+		.progress .bar {
+			height: 100%;
+			background: #00ff00;
+			transition: all 0.5s;
+		}
+	</style>
+</head>
+<body ng-init="persons=['John Smith', 'John Doe', 'Jane Doe']; myProgress=0">
+	<ul>
+		<li ng-repeat="person in persons">
+			{{person | uppercase}}
+		</li>
+	</ul>
+	<input type="text" ng-model="name" />
+	<ul ng-init="customers=[{name: 'John Smith', city: 'LA'}, {name: 'John Doe', city: 'New York'}, {name: 'Jane Doe', city: 'San Francisco'}]">
+		<li ng-repeat="customer in customers | filter: name | orderBy: 'city'">
+			{{customer.name}} - {{customer.city}}
+		</li>
+	</ul>
+	<br />
+	<input type="number" ng-model="myProgress" min="0" max="100" />
+	<br />
+	<br />
+	<div class="progress">
+		<div class="bar" ng-style="{'width': (myProgress ? myProgress : 0) + '%'}"></div>
+	</div>
+	<script src="js/angular.js"></script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html ng-app="">
+<head>
+	<title>FE</title>
+</head>
+<body ng-init="persons=['John Smith', 'John Doe', 'Jane Doe']">
+	Name: <input type="text" ng-model="name" /> {{name}}
+	<ul>
+		<li ng-repeat="person in persons">{{person}}</li>
+	</ul>
+	<script scr="js/angular.js" />
+</body>
+</html>
